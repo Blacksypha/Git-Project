@@ -14,7 +14,7 @@ struct ContentView: View {
             Button("Show Modal") {
                 self.isPresented = true
             }.sheet(isPresented: $isPresented) {
-                Text("Hello World")
+                Text("What's good?")
             }
         }
     }
